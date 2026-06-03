@@ -9,7 +9,7 @@ interface CourseCardProps {
   course: Course;
 }
 
-export default function CourseCard({ course }) {
+export default function CourseCard({ course }: CourseCardProps) {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
