@@ -5,6 +5,7 @@ import { Course } from "@/types";
 import CourseCard from "./CourseCard";
 import HeroTile from "./HeroTile";
 import ActivityTile from "./ActivityTile";
+import { Variants } from "framer-motion";
 
 interface BentoGridProps {
   courses: Course[];
@@ -21,7 +22,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,
