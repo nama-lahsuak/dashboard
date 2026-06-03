@@ -27,15 +27,17 @@ A high-fidelity, dark-mode student dashboard prototype built with Next.js (App R
 
 ```bash
    npm install
+```
 
-Configure Environment Variables
-Create a .env.local file using the keys specified in .env.example:
+2. **Configure Environment Variables**
+   Create a .env.local file using the keys specified in .env.example:
 
 Code snippet
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_public_anon_key
-Launch Development Environment
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_public_anon_key
 
-Bash
+3.  **Launch Development Environment**
+
+```bash
    npm run dev
 ```
